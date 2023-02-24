@@ -5,8 +5,11 @@
     background-position: center;
   }
 .profile-image {
-    border: 5px solid mediumslateblue;
-    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-image: url('../../../assets/img/profile/example.jpg');
+    background-size: cover;
+    background-position: center;
     position: absolute;
     top: -110px;
     left: calc(50% - 75px);
